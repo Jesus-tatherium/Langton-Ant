@@ -1,0 +1,2 @@
+﻿  stdafx.c
+c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\stdafx.h(12): fatal error C1083: Impossible d'ouvrir le fichier include : 'SFML/Window.h' : No such file or directory
