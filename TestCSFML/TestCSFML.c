@@ -176,7 +176,8 @@ void DisplayKeys()
 	printf("Keys:\n");
 	printf("\tPlay / pause: Space\n");
 	printf("\tReset background image: R\n");
-	printf("\n\n");
+	printf("\tSet ant pos: leftClick\n");
+	printf("\n");
 	printf("\tChange speed:\n");
 	printf("\t\tNumpad +\n");
 	printf("\t\tNumpad -\n");
@@ -272,6 +273,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	sfClock* myClock = sfClock_create();
 	float Dt = 0;
+	float timer1 = 0;
 	sfVideoMode mode = { myData.screenSize.x, myData.screenSize.y, 32 };
 	window = sfRenderWindow_create(mode, "SFML window", sfResize | sfClose, NULL);
 
@@ -294,6 +296,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	int multiplier = 1;
 	sfBool isMulti = sfTrue;
 	int frameCount = 0;
+	int fps;
 
 	int actionCount = 0;
 	char* basedir = malloc(sizeof(char) * 20);
@@ -321,9 +324,25 @@ int _tmain(int argc, _TCHAR* argv[])
 	while (sfRenderWindow_isOpen(window))
 	{
 		Dt = sfTime_asSeconds(sfClock_restart(myClock));
+		timer1 += Dt;
 		while (sfRenderWindow_pollEvent(window, &event))
 		{
 			if (event.type == sfEvtClosed) exit(0);
+			if (event.type == sfEvtMouseButtonPressed)
+			{
+				if (event.mouseButton.button == sfMouseLeft)
+				{
+					sfImage_destroy(myData.image);
+					myData.image = sfImage_create(myData.screenSize.x, myData.screenSize.y);
+					myData.texture = sfTexture_createFromImage(myData.image, NULL);
+					sfSprite_setTexture(sprite, myData.texture, sfTrue);
+
+					actionCount = 0;
+
+					sfVector2i mousePos = sfMouse_getPosition(window);
+					myData.pos = (sfVector2f) { mousePos.x, mousePos.y };
+				}
+			}
 			if (event.type == sfEvtKeyPressed)
 			{
 				if (event.key.code == sfKeyR)
@@ -412,21 +431,26 @@ int _tmain(int argc, _TCHAR* argv[])
 		BlitSprite(sprite, (sfVector2f) { 0, 0 });
 		BlitSprite(block, myData.pos);
 
+		BlitText(&infos, (sfVector2f) { myData.screenSize.x / 2, 15 }, 15, basedir, window);
 		char temp[20] = { 0 };
-		sprintf(temp, "%d", actionCount);
-		BlitText(&infos, (sfVector2f) { myData.screenSize.x / 2, 15 }, 15, temp, window);
+		if (timer1 > 0.25f)
+		{
+			fps = 1 / Dt;
+			timer1 = 0.0f;
+		}
+
 		if (isMulti)
 		{
-			sprintf(temp, "mult:%d", multiplier);
+			sprintf(temp, "mult:%d FPS:%d", multiplier, fps);
 		}
 		else
 		{
-			sprintf(temp, "mult: 1/%d", multiplier);
+			sprintf(temp, "mult: 1/%d FPS:%d", multiplier, fps);
 		}
 		BlitText(&infos, (sfVector2f) { myData.screenSize.x / 2, 32 }, 15, temp, window);
-		BlitText(&infos, (sfVector2f) { myData.screenSize.x / 2, 49 }, 15, basedir, window);
+		sprintf(temp, "%d", actionCount);
+		BlitText(&infos, (sfVector2f) { myData.screenSize.x / 2, 49 }, 15, temp, window);
 
-		
 
 		sfRenderWindow_display(window);
 
