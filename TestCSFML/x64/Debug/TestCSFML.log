@@ -1,49 +1,50 @@
-﻿  TestCSFML.c
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(26): warning C4244: 'initialisation' : conversion de 'unsigned int' en 'float', perte possible de données
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(98): warning C4244: 'fonction' : conversion de 'float' en 'unsigned int', perte possible de données
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(154): warning C4244: 'fonction' : conversion de 'float' en 'unsigned int', perte possible de données
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(167): warning C4244: 'fonction' : conversion de 'float' en 'unsigned int', perte possible de données
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(189): warning C4244: 'fonction' : conversion de 'time_t' en 'unsigned int', perte possible de données
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(227): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(228): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(279): warning C4244: 'fonction' : conversion de 'float' en 'unsigned int', perte possible de données
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(287): warning C4133: 'fonction' : types incompatibles - de 'sfImage *' à 'const sfTexture *'
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(335): warning C4244: 'fonction' : conversion de 'float' en 'unsigned int', perte possible de données
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(341): warning C4133: 'fonction' : types incompatibles - de 'sfRenderWindow *' à 'const sfWindow *'
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(350): warning C4244: 'fonction' : conversion de 'float' en 'unsigned int', perte possible de données
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(437): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(194): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+﻿  stdafx.c
+  TestCSFML.c
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(26): warning C4244: 'initialisation' : conversion de 'unsigned int' en 'float', perte possible de données
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(98): warning C4244: 'fonction' : conversion de 'float' en 'unsigned int', perte possible de données
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(154): warning C4244: 'fonction' : conversion de 'float' en 'unsigned int', perte possible de données
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(167): warning C4244: 'fonction' : conversion de 'float' en 'unsigned int', perte possible de données
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(190): warning C4244: 'fonction' : conversion de 'time_t' en 'unsigned int', perte possible de données
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(228): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(229): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(280): warning C4244: 'fonction' : conversion de 'float' en 'unsigned int', perte possible de données
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(288): warning C4133: 'fonction' : types incompatibles - de 'sfImage *' à 'const sfTexture *'
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(336): warning C4244: 'fonction' : conversion de 'float' en 'unsigned int', perte possible de données
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(342): warning C4133: 'fonction' : types incompatibles - de 'sfRenderWindow *' à 'const sfWindow *'
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(351): warning C4244: 'fonction' : conversion de 'float' en 'unsigned int', perte possible de données
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(438): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(195): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: voir la déclaration de 'scanf'
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(207): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(208): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: voir la déclaration de 'scanf'
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(220): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(221): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: voir la déclaration de 'scanf'
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(224): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(225): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: voir la déclaration de 'scanf'
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(232): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(233): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: voir la déclaration de 'scanf'
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(242): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(243): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: voir la déclaration de 'scanf'
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(249): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(250): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: voir la déclaration de 'scanf'
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(259): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(260): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: voir la déclaration de 'scanf'
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(276): warning C4244: 'initialisation' : conversion de 'float' en 'unsigned int', perte possible de données
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(285): warning C4133: 'initialisation' : types incompatibles - de 'sfTexture *' à 'sfImage *'
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(288): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(306): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(277): warning C4244: 'initialisation' : conversion de 'float' en 'unsigned int', perte possible de données
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(286): warning C4133: 'initialisation' : types incompatibles - de 'sfTexture *' à 'sfImage *'
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(289): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(307): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: voir la déclaration de 'sprintf'
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(310): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(311): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: voir la déclaration de 'sprintf'
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(314): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(315): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: voir la déclaration de 'sprintf'
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(318): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(319): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: voir la déclaration de 'sprintf'
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(342): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(443): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(343): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(444): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: voir la déclaration de 'sprintf'
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(447): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(448): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: voir la déclaration de 'sprintf'
-c:\users\utilisateur\desktop\folder\fourmi langton\fourmi langton v1\testcsfml\testcsfml.c(450): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\utilisateur\desktop\nouveau dossier\langton-ant\testcsfml\testcsfml.c(451): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: voir la déclaration de 'sprintf'
-  TestCSFML.vcxproj -> C:\Users\Utilisateur\Desktop\Folder\fourmi langton\fourmi langton v1\x64\Debug\TestCSFML.exe
+  TestCSFML.vcxproj -> C:\Users\Utilisateur\Desktop\Nouveau dossier\Langton-Ant\x64\Debug\TestCSFML.exe
